@@ -3,7 +3,8 @@ public class Calculate {
     private static double result;
 
     public static double bmiOldFormula(double kg, double height) {
-
+        result = kg/(height*height);
+        
         return result;
     }
     
