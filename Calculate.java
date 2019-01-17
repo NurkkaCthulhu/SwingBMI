@@ -9,6 +9,15 @@ public class Calculate {
 
     private static double result;
 
+    /**
+     * Method for calculating the BMI from given kg and height.
+     * 
+     * Uses the old kg/height(in m)^2 formula.
+     * 
+     * @param kg            user's mass in kg
+     * @param height        user's height in m
+     * @return              user's BMI
+     */
     public static double bmiOldFormula(double kg, double height) {
         result = kg/(height*height);
         roundResult();
