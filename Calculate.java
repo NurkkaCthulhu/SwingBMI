@@ -15,7 +15,8 @@ public class Calculate {
     }
 
     private static void roundResult() {
-
+        result = (Math.round(result * 100));
+        result /= 100;
     }
 
 }
