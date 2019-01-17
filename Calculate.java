@@ -23,7 +23,16 @@ public class Calculate {
         roundResult();
         return result;
     }
-    
+
+    /**
+     * Method for calculating the BMI from given kg and height.
+     * 
+     * Uses the new 1.3*kg/height(in m)^2.5 formula.
+     * 
+     * @param kg            user's mass in kg
+     * @param height        user's height in m
+     * @return              user's BMI
+     */
     public static double bmiNewFormula(double kg, double height) {
         result = 1.3*kg/(Math.pow(height, 2.5));
         roundResult();
