@@ -89,12 +89,9 @@ public class BMIWindow extends JFrame {
             double height = Double.parseDouble(heightText.getText());
             // Change centimeters into meters
             height = height / 100;
-    
-            //calculate the result and round it to show only 2 decimals
-            double result = kg/(height*height);
-            result = (Math.round(result * 100));
-            result /= 100;
-    
+
+            //double result = Calculate.bmiOldFormula(kg, height);
+            double result = Calculate.bmiNewFormula(kg, height);
             resultText.setText("Your BMI is " + result + ". This is considered " + resultText(result));
         } catch (NumberFormatException n) {
             resultText.setText("Please replace the texts above with your own values\nand use period for decimals! Press then Result-button for your result.");
