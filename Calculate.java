@@ -1,3 +1,10 @@
+/**
+ * Calculate can be used to calculate BMI with the old or new formula.
+ * 
+ * @author      Anu Malm <anu.m.malm(at)gmail.com>
+ * @version     2019.0117
+ * @since       2019.0117
+ */
 public class Calculate {
 
     private static double result;
