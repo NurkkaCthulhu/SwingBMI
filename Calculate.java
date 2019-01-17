@@ -39,6 +39,9 @@ public class Calculate {
         return result;
     }
 
+    /**
+     * Rounds the class's result-double into two decimal double.
+     */
     private static void roundResult() {
         result = (Math.round(result * 100));
         result /= 100;
