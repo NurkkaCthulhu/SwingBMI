@@ -1,9 +1,15 @@
 public class Calculate {
-    public double bmiOldFormula() {
-        return 0;
+
+    private static double result;
+
+    public static double bmiOldFormula() {
+
+        return result;
     }
     
-    public double bmiNewFormula() {
-        return 0;
+    public static double bmiNewFormula() {
+
+        return result;
     }
+
 }
