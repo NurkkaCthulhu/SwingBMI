@@ -3,7 +3,7 @@
  * 
  * @author      Anu Malm <anu.m.malm(at)gmail.com>
  * @version     2019.0117
- * @since       2019.0117
+ * @since       2018.0918
  */
 public class Calculate {
 
